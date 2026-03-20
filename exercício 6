@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex6"
+
+var
+   kg, gramas: real
+
+   inicio
+
+      escreva("Peso em kg: ")
+         leia(kg)
+
+            gramas <- kg * 1000
+
+               escreval("Peso em gramas: ", gramas)
+
+               fimalgoritmo
