@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex1"
+
+var
+   cavalos, ferraduras: inteiro
+
+   inicio
+
+      escreva("Quantidade de cavalos: ")
+         leia(cavalos)
+
+            ferraduras <- cavalos * 4
+
+               escreval("Quantidade de cavalos: ", cavalos)
+                  escreval("Quantidade de ferraduras: ", ferraduras)
+
+                  fimalgoritmo
