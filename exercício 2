@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex2"
+
+var
+   nome: caractere
+      idade, meses, dias: inteiro
+
+      inicio
+
+         escreva("Digite seu nome: ")
+            leia(nome)
+
+               escreva("Digite sua idade (em anos): ")
+                  leia(idade)
+
+                     meses <- idade * 12
+                        dias <- idade * 365
+
+                           escreval("Nome: ", nome)
+                              escreval("Idade em anos: ", idade)
+                                 escreval("Idade em meses: ", meses)
+                                    escreval("Idade em dias: ", dias)
+
+                                    fimalgoritmo
