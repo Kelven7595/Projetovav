@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex5"
+
+var
+   preco, valor, litros: real
+
+   inicio
+
+      escreva("Preco do litro: ")
+         leia(preco)
+
+            escreva("Valor abastecido: ")
+               leia(valor)
+
+                  litros <- valor / preco
+
+                     escreval("Litros abastecidos: ", litros)
+
+                     fimalgoritmo
