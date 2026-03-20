@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex7"
+
+var
+   baseMenor, baseMaior, altura, area: real
+
+   inicio
+
+      escreva("Base menor: ")
+         leia(baseMenor)
+
+            escreva("Base maior: ")
+               leia(baseMaior)
+
+                  escreva("Altura: ")
+                     leia(altura)
+
+                        area <- (baseMenor + baseMaior) * altura / 2
+
+                           escreval("Area: ", area)
+
+                           fimalgoritmo
