@@ -1,0 +1,22 @@
+programa {
+  funcao inicio() {
+    
+  }
+}algoritmo "ex9"
+
+var
+   peso, percentual, novoPeso: real
+
+   inicio
+
+      escreva("Peso do boi: ")
+         leia(peso)
+
+            escreva("Percentual de engorda (%): ")
+               leia(percentual)
+
+                  novoPeso <- peso + (peso * percentual / 100)
+
+                     escreval("Novo peso: ", novoPeso)
+
+                     fimalgoritmo
